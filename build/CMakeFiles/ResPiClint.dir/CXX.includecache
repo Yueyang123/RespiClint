@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+../include/cvui.h
+cvui.h
+../include/cvui.h
+opencv2/opencv.hpp
+-
+cvui.h
+../include/cvui.h
+iostream
+-
+vector
+-
+map
+-
+stdarg.h
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/core/core.hpp
+-
+
 ../include/opencv2/calib3d.hpp
 opencv2/core.hpp
 ../include/opencv2/opencv2/core.hpp
@@ -75,6 +97,10 @@ opencv2/core/vsx_utils.hpp
 ../include/opencv2/core/opencv2/core/vsx_utils.hpp
 
 ../include/opencv2/core/bufferpool.hpp
+
+../include/opencv2/core/core.hpp
+opencv2/core.hpp
+../include/opencv2/core/opencv2/core.hpp
 
 ../include/opencv2/core/core_c.h
 opencv2/core/types_c.h
@@ -778,6 +804,10 @@ opencv2/videoio.hpp
 opencv2/highgui/highgui_c.h
 ../include/opencv2/opencv2/highgui/highgui_c.h
 
+../include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+../include/opencv2/highgui/opencv2/highgui.hpp
+
 ../include/opencv2/highgui/highgui_c.h
 opencv2/core/core_c.h
 ../include/opencv2/highgui/opencv2/core/core_c.h
@@ -831,6 +861,10 @@ opencv2/highgui.hpp
 ../include/opencv2/opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 ../include/opencv2/opencv2/imgproc/imgproc_c.h
+
+../include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+../include/opencv2/imgproc/opencv2/imgproc.hpp
 
 ../include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h
@@ -1306,17 +1340,21 @@ unistd.h
 signal.h
 -
 
-/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.cpp
+/home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp
+opencv2/opencv.hpp
+-
 pthread.h
 -
 assert.h
 -
-opencv2/opencv.hpp
--
-tcp_camera.h
-/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.h
 tcp_net_socket.h
 /home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_net_socket.h
+tcp_camera.h
+/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.h
+string.h
+/home/pi/Desktop/WorkSpace/ResPiClint/src/string.h
+cvui.h
+/home/pi/Desktop/WorkSpace/ResPiClint/src/cvui.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

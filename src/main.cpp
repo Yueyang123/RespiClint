@@ -17,7 +17,7 @@ using namespace cv;
 using namespace std;
 #define WINDOW_NAME "控制器"
  
-#define Camera1_IP  "127.0.0.1"
+#define Camera1_IP  "192.168.1.106"
 #define Camera1_PORT 40000
 #define Camera2_IP  "192.168.1.3"
 #define Camera2_PORT 8080

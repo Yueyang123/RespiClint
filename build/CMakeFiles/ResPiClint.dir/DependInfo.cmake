@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pi/Desktop/WorkSpace/ResPiClint/src/gpio.cpp" "/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/ResPiClint.dir/src/gpio.cpp.o"
   "/home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp" "/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/ResPiClint.dir/src/main.cpp.o"
   "/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.cpp" "/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o"
   "/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_net_socket.cpp" "/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o"

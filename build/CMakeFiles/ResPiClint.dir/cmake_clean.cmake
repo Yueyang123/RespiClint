@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ResPiClint.dir/src/gpio.cpp.o"
   "CMakeFiles/ResPiClint.dir/src/main.cpp.o"
   "CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o"
   "CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o"

@@ -57,9 +57,22 @@ include CMakeFiles/ResPiClint.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ResPiClint.dir/flags.make
 
+CMakeFiles/ResPiClint.dir/src/gpio.cpp.o: CMakeFiles/ResPiClint.dir/flags.make
+CMakeFiles/ResPiClint.dir/src/gpio.cpp.o: ../src/gpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ResPiClint.dir/src/gpio.cpp.o"
+	/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ResPiClint.dir/src/gpio.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/gpio.cpp
+
+CMakeFiles/ResPiClint.dir/src/gpio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ResPiClint.dir/src/gpio.cpp.i"
+	/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/WorkSpace/ResPiClint/src/gpio.cpp > CMakeFiles/ResPiClint.dir/src/gpio.cpp.i
+
+CMakeFiles/ResPiClint.dir/src/gpio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ResPiClint.dir/src/gpio.cpp.s"
+	/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/WorkSpace/ResPiClint/src/gpio.cpp -o CMakeFiles/ResPiClint.dir/src/gpio.cpp.s
+
 CMakeFiles/ResPiClint.dir/src/main.cpp.o: CMakeFiles/ResPiClint.dir/flags.make
 CMakeFiles/ResPiClint.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ResPiClint.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ResPiClint.dir/src/main.cpp.o"
 	/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ResPiClint.dir/src/main.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp
 
 CMakeFiles/ResPiClint.dir/src/main.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/ResPiClint.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o: CMakeFiles/ResPiClint.dir/flags.make
 CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o: ../src/tcp_camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o"
 	/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.cpp
 
 CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.s: cmake_force
 
 CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o: CMakeFiles/ResPiClint.dir/flags.make
 CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o: ../src/tcp_net_socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o"
 	/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_net_socket.cpp
 
 CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.i: cmake_force
@@ -98,6 +111,7 @@ CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.s: cmake_force
 
 # Object files for target ResPiClint
 ResPiClint_OBJECTS = \
+"CMakeFiles/ResPiClint.dir/src/gpio.cpp.o" \
 "CMakeFiles/ResPiClint.dir/src/main.cpp.o" \
 "CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o" \
 "CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o"
@@ -105,6 +119,7 @@ ResPiClint_OBJECTS = \
 # External object files for target ResPiClint
 ResPiClint_EXTERNAL_OBJECTS =
 
+ResPiClint: CMakeFiles/ResPiClint.dir/src/gpio.cpp.o
 ResPiClint: CMakeFiles/ResPiClint.dir/src/main.cpp.o
 ResPiClint: CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o
 ResPiClint: CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o
@@ -153,7 +168,7 @@ ResPiClint: /usr/local/lib/libopencv_objdetect.so.3.4.0
 ResPiClint: /usr/local/lib/libopencv_imgproc.so.3.4.0
 ResPiClint: /usr/local/lib/libopencv_core.so.3.4.0
 ResPiClint: CMakeFiles/ResPiClint.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ResPiClint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ResPiClint"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ResPiClint.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

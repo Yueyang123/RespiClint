@@ -123,6 +123,33 @@ ResPiClint/fast:
 	$(MAKE) -f CMakeFiles/ResPiClint.dir/build.make CMakeFiles/ResPiClint.dir/build
 .PHONY : ResPiClint/fast
 
+src/gpio.o: src/gpio.cpp.o
+
+.PHONY : src/gpio.o
+
+# target to build an object file
+src/gpio.cpp.o:
+	$(MAKE) -f CMakeFiles/ResPiClint.dir/build.make CMakeFiles/ResPiClint.dir/src/gpio.cpp.o
+.PHONY : src/gpio.cpp.o
+
+src/gpio.i: src/gpio.cpp.i
+
+.PHONY : src/gpio.i
+
+# target to preprocess a source file
+src/gpio.cpp.i:
+	$(MAKE) -f CMakeFiles/ResPiClint.dir/build.make CMakeFiles/ResPiClint.dir/src/gpio.cpp.i
+.PHONY : src/gpio.cpp.i
+
+src/gpio.s: src/gpio.cpp.s
+
+.PHONY : src/gpio.s
+
+# target to generate assembly for a file
+src/gpio.cpp.s:
+	$(MAKE) -f CMakeFiles/ResPiClint.dir/build.make CMakeFiles/ResPiClint.dir/src/gpio.cpp.s
+.PHONY : src/gpio.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ResPiClint"
 	@echo "... edit_cache"
+	@echo "... src/gpio.o"
+	@echo "... src/gpio.i"
+	@echo "... src/gpio.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

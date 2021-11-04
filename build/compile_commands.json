@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/pi/Desktop/WorkSpace/ResPiClint/build",
+  "command": "/bin/g++-8   -I/home/pi/Desktop/WorkSpace/ResPiClint/include -isystem /usr/local/include/opencv    -O0 -Wall -fpermissive   -o CMakeFiles/ResPiClint.dir/src/gpio.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/gpio.cpp",
+  "file": "/home/pi/Desktop/WorkSpace/ResPiClint/src/gpio.cpp"
+},
+{
+  "directory": "/home/pi/Desktop/WorkSpace/ResPiClint/build",
   "command": "/bin/g++-8   -I/home/pi/Desktop/WorkSpace/ResPiClint/include -isystem /usr/local/include/opencv    -O0 -Wall -fpermissive   -o CMakeFiles/ResPiClint.dir/src/main.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp",
   "file": "/home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp"
 },
