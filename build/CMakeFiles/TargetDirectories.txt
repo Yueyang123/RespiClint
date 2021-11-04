@@ -1,0 +1,3 @@
+/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/ResPiClint.dir
+/home/pi/Desktop/WorkSpace/ResPiClint/build/CMakeFiles/edit_cache.dir
