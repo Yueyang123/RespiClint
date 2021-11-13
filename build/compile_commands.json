@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/pi/Desktop/WorkSpace/ResPiClint/build",
+  "command": "/bin/g++-8   -I/home/pi/Desktop/WorkSpace/ResPiClint/include -isystem /usr/local/include/opencv    -O0 -Wall -fpermissive   -o CMakeFiles/ResPiClint.dir/src/main.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp",
+  "file": "/home/pi/Desktop/WorkSpace/ResPiClint/src/main.cpp"
+},
+{
+  "directory": "/home/pi/Desktop/WorkSpace/ResPiClint/build",
+  "command": "/bin/g++-8   -I/home/pi/Desktop/WorkSpace/ResPiClint/include -isystem /usr/local/include/opencv    -O0 -Wall -fpermissive   -o CMakeFiles/ResPiClint.dir/src/tcp_camera.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.cpp",
+  "file": "/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_camera.cpp"
+},
+{
+  "directory": "/home/pi/Desktop/WorkSpace/ResPiClint/build",
+  "command": "/bin/g++-8   -I/home/pi/Desktop/WorkSpace/ResPiClint/include -isystem /usr/local/include/opencv    -O0 -Wall -fpermissive   -o CMakeFiles/ResPiClint.dir/src/tcp_net_socket.cpp.o -c /home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_net_socket.cpp",
+  "file": "/home/pi/Desktop/WorkSpace/ResPiClint/src/tcp_net_socket.cpp"
+}
+]
